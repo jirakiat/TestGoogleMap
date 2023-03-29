@@ -146,8 +146,9 @@
 
         let markers = [];
 
-
+        //รับค่า การค้นหา จาก input หลังจาก Even  places_changed
         searchBox.addListener("places_changed", () => {
+            //กำหนดตัวแปล เพื่อเก็บค่าจาก searchBox.getPlaces
             const places = searchBox.getPlaces();
 
             if (places.length == 0) {
