@@ -70,7 +70,7 @@
             margin-left: 12px;
             padding: 0 11px 0 13px;
             text-overflow: ellipsis;
-            width: 800px;
+            width: 100%;
         }
 
         #searchbox:focus {
@@ -128,6 +128,7 @@
             center: {lat: 13.829961525566818, lng: 100.52845069795059},
             zoom: 15,
             mapTypeId: "roadmap",
+            mapTypeControl: false,
         });
        // สร้าง Marker ของละติจูด ลองติจูด บางซื่อ
         var marker = new google.maps.Marker({
